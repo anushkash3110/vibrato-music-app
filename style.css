@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arimo:wght@400;500;600;700&display=swap');
+
 
 *{
   padding: 0;
@@ -7,7 +8,7 @@
 }
 
 body{
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Arimo', sans-serif;
   width: 100%;
   height: 100vh;
   background: #121213;
@@ -29,8 +30,12 @@ header .main-content {
   height: 90%;
   /* border: 1px solid #fff; */
   background: #170412;
-  box-shadow: 5px 0px 2px #090f1f;
   color: #ffff;
+}
+
+header .left-sidebar {
+  width: 25%;
+  box-shadow: 5px 0px 2px #090f1f;
 }
 
 header .main-content{
@@ -43,13 +48,31 @@ header .footer{
   height: 10%;
   /* border: 1px solid #fff; */
   background: #170412;
-  box-shadow: 0px 3px 8px #090f1f;
+  box-shadow: 0px -3px 8px #090f1f;
+;
+
 }
 
 header .left-sidebar h1 {
   font-size: 20px;
   color: #F01F86;
-  margin: 15px 0px 0px 20px;
-  font-weight: 500;
+  margin: 15px 0px 20px 20px;
+  font-weight: 600;
 }
 
+.logo-box {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.logo {
+  width: 40px;
+  height: auto;
+}
+
+
+.library-icon {
+  width: 20px;
+  height: auto;
+  opacity: 0.8;
+}
