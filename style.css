@@ -60,19 +60,48 @@ header .left-sidebar h1 {
   font-weight: 600;
 }
 
-.logo-box {
-  text-align: center;
-  margin-bottom: 30px;
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 15px;
 }
 
-.logo {
-  width: 40px;
+.brand-logo {
+  width: 25px;
   height: auto;
 }
 
+.brand-name {
+  font-size: 20px;
+  font-weight: 600;
+  color: #F01F86;
+}
 
 .library-icon {
   width: 20px;
   height: auto;
   opacity: 0.8;
 }
+
+header .left-sidebar .menu {
+  margin: 40px 0px 0px 20px;
+}
+
+header .left-sidebar .menu h4 {
+  font-size: 16px; 
+  font-weight: 400;
+  padding-bottom: 30px;
+  color: #4c5262;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  transition: linear;
+  transition-duration: 0.5s;
+}
+
+header .left-sidebar .menu h4:hover {
+  color: #fff;
+  font-size:19px;
+}
+
