@@ -149,6 +149,15 @@ header .left-sidebar .menu_song {
   overflow: auto;
 }
 
+header .left-sidebar .menu_song::-webkit-scrollbar {
+  display: none;
+}
+
+header .left-sidebar .menu_song::-webkit-scrollbar-thumb {
+  background: #4c5262;
+  border-radius: 5px;
+}
+
 header .left-sidebar .menu_song li {
   list-style-type: none;
   position: relative;
@@ -196,4 +205,36 @@ header .left-sidebar .menu_song li h5 .subtitle {
 header .left-sidebar .menu_song li .bi {
   position: absolute;
   right: 15px;
+}
+
+header .footer{
+  display: flex;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+header .master .wave {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #fff;
+  padding-bottom: 5px;
+  display: flex;
+  align-items: flex-end;
+  margin-right: 10px;
+}
+
+header .master .wave .wave1{
+  width: 3px;
+  height: 10px;
+  background: #fb78ba;
+  margin-right: 3px;
+  border-radius: 10px, 10px, 0px, 0px;
+}
+
+header .master .wave .wave1:nth-child(2){
+  height: 13px;
+}
+
+header .master .wave .wave1:nth-child(3){
+  height: 8px;
 }
