@@ -228,13 +228,46 @@ header .master .wave .wave1{
   height: 10px;
   background: #fb78ba;
   margin-right: 3px;
-  border-radius: 10px, 10px, 0px, 0px;
+  border-radius: 10px 10px 0px 0px;
+  animation: unset;
 }
 
 header .master .wave .wave1:nth-child(2){
   height: 13px;
+  margin-right: 3.5px;
+  animation-delay: 0.4s;
 }
 
 header .master .wave .wave1:nth-child(3){
   height: 8px;
+  animation-delay: 0.8s;
 }
+
+/* javascript classes */
+header .master .active1 .wave1{
+  height: 8px;
+  animation-delay: 0.8s;
+}
+
+header .master .wave .wave1:nth-child(2){
+  height: 13px;
+  margin-right: 3.5px;
+  animation-delay: 0.4s;
+}
+
+header .master .wave .wave1:nth-child(3){
+  height: 8px;
+  animation-delay: 0.8s;
+}
+@keyframes wave {
+  0% {
+    height: 10px;
+  }
+  50% {
+    height: 15px;
+  }
+  100% {
+    height: 10px;
+  }
+  
+} 
